@@ -14,6 +14,7 @@ jobs:
           cd Lucid
           npm install
           npm start
+          npm run
           screen -dm npm start
       - name: tunnel and expose to web
         run: |
