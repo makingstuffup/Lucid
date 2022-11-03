@@ -12,7 +12,7 @@ jobs:
         run: |
           git clone https://github.com/makingstuffup/Lucid.git --recursive
           cd Lucid
-          npm run start
+          npm run build
           screen -dm npm start
       - name: tunnel and expose to web
         run: |
