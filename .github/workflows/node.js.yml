@@ -13,7 +13,7 @@ jobs:
           git clone https://github.com/makingstuffup/Lucid.git --recursive
           cd Lucid
           npm install
-          node  .
+          npm start
           screen -dm npm start
       - name: tunnel and expose to web
         run: |
